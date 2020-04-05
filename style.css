@@ -1,0 +1,22 @@
+body {
+  background: #2d2d2d;
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 100vh;
+  overflow: hidden;
+}
+
+hgroup {
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 100px;
+  text-align: center;
+}

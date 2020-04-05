@@ -18,9 +18,9 @@
     const day = new Date().toLocaleString('en-us', {
       weekday: 'long'
     })
+    const today = new Date().toLocaleDateString()
     const hone = document.querySelector('h1')
     const htwo = document.querySelector('h2')
-    let today = new Date().toLocaleDateString()
     htwo.innerText = today
     hone.innerText = day
   </script>
